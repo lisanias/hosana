@@ -1,0 +1,28 @@
+{
+    "name": "lisanias/hosana",
+    "description": "Sistema Informatizado do Seminario Hosana - SISH",
+    "minimum-stability":"stable",
+    "authors": [
+        {
+            "name": "Lisanias Loback",
+            "email": "contato@webig.pro.br",
+            "homepage": "https://wwww.webig.pro.br",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Support/Config.php",
+            "source/Support/Helpers.php"
+        ]
+    },
+        "require": {
+        "ext-json": "*",
+        "coffeecode/router": "^2.0",
+        "phpmailer/phpmailer":  "^6.5",
+        "matthiasmullie/minify": "*"
+    }
+}

@@ -1,0 +1,5 @@
+# GIT
+.git
+
+# ENV files - Arquivos de Configuração
+.env
